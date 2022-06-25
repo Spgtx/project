@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A book store website</title>
+
+<!-- Css file link-->
+    <link rel="stylesheet" href="style.css">
+<!-- Font awesome for icons and etc -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+</head>
+<body>
+
+    <!--Header section Start-->
+    <header class="header">
+        <!-- For search bar and icons-->
+        <div class="header-1">
+            <a href="home.html" class="logo"><!-- logo link <i class="fas fa-book">--></i>TheMind</i></a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="click to search ..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="home.html" class="fas fa-heart"></a>
+                <a href="home.html" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+                <div id="contact-btn" class="fas fa-headset"></div>
+            </div>
+
+        </div>
+        <!-- For search menu items-->
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="home.html">Home</a>
+                <a href="featured.html">Featured Books</a>
+                <a href="New.html">New Books</a>
+                <a href="reviews.html">Reviews</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <!--Header section End-->
+    <nav class="bottom-navbar">
+        <a href="home.html" class="fas fa-home"></a>
+        <a href="Featured_books.html" class="fas fa-list"></a>
+        <a href="New.html" class="fas fa-tags"></a>
+    </nav>
+
+
+    <!--Login form-->
+    <div class="login-form-container">
+        <!-- Close login form button-->
+        <div id="close-login-btn" class="fas fa-times"></div>
+        
+        <form action="">
+            <h3>Sign in</h3>
+            <span>Username</span>
+            <input type="email" name="" class="box placeholder="Enter email here" id="">
+            <span>Password</span>
+            <input type="password" name="" class="box" placeholder="Enter password here" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="Remember me">
+                <label for="Remember me">Remember me</label>
+            </div>
+            <input type="submit" value="Sign in" class="btn">
+            <p>Dont have an account ?<a href="#">Create one</a></p>
+            <p>Forgot Password ?<a href="#">Click here</a></p>
+        </form>
+    </div>
+
+
+    <!--Home section starts-->
+    <section class="home" id="home">
+
+        <div class="row">
+            <div class="content">
+                <h3>We offer huge discounts</h3>
+                <p>We are currently offering huge discounts of up to 60% for
+                    these books.</p>
+                    <a href="#" class="btn">Shop now</a>
+                </div>
+
+        <div class="book-slider">
+            <div class="wrapper">
+                <a href="#" class="slide"><img src="images/image1" alt=""></a>
+                <a href="#" class="slide"><img src="images/image2.jpg" alt=""></a>
+                <a href="#" class="slide"><img src="images/image3.png" alt=""></a>
+                <a href="#" class="slide"><img src="images/image4.jpg" alt=""></a>
+                <a href="#" class="slide"><img src="images/image5.jpg" alt=""></a>
+                <a href="#" class="slide"><img src="images/image6.jpg" alt=""></a>
+                <a href="#" class="slide"><img src="images/image7.jpg" alt=""></a>
+                <a href="#" class="slide"><img src="images/image8.jpg" alt=""></a>
+        </div>
+        <image src="images/stand.png" class="stand" alt=""></image>
+    </div>
+</div>
+
+
+    </section>
+    <!-- Home section end-->
+
+    <!--Bottom icons-->
+
+    <section class="icons-container">
+        <div class="icons">
+            <i class="fas fa-plane"></i>
+            <div class="content">
+                <h3>Free Delivery</h3>
+                <p>For orders above Ksh.20k</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>Secure Payments</h3>
+                <p>Your Payments are 100% secure</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>Returns available</h3>
+                <p>30 days returns</p>
+            </div>
+        </div>
+    </section>
+    <!--js file -->
+    <script src="script.js"></script>
+</body>
+</html> 
