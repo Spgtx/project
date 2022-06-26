@@ -14,6 +14,19 @@ document.querySelector('#login-btn').onclick=() =>{
 document.querySelector('#close-login-btn').onclick=() =>{
     loginForm.classList.remove('active');
 }
+document.querySelector('#createacc').onclick=() =>{
+    loginForm.classList.remove('active');
+}
+/* sgin up form hide and show*/
+let signinForm =document.querySelector('.sign-in-form-container');
+document.querySelector('#createacc').onclick=() =>{
+    signinForm.classList.toggle('active');
+}
+
+document.querySelector('#createacc').onclick=() =>{
+    signinForm.classList.remove('active');
+}
+
 
 
 
